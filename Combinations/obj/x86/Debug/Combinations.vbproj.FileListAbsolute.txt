@@ -1,0 +1,11 @@
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\bin\Debug\Combinations.exe
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\bin\Debug\Combinations.pdb
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\bin\Debug\Combinations.xml
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\WindowsApplication1.Resources.resources
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\Combinations.exe
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\Combinations.xml
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\Combinations.pdb
+H:\Backup\Documents and Settings\Documents and Settings\Sam Grainger\My Documents\Programming\Combinations\Combinations\obj\x86\Debug\WindowsApplication1.Combinations.resources
