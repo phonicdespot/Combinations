@@ -72,13 +72,28 @@ Public Class Combinations
     'ap(<Array>) prints an array to the immediate window.
     Private Sub ap(ByVal intNums As Integer())
         Dim strPrint As String
-        Dim strOut As String
-        strOut = ""
-        For i = 0 To intCols
-            strPrint = intNums(i) & " "
-            strOut = strOut & strPrint
+        strPrint = ""
+        For i = 0 To intNums.Length - 1
+            strPrint &= intNums(i) & " "
         Next
-        Debug.Print(strOut)
+        Debug.Print(strPrint)
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        ' Dim intPattern(6) As Integer
+        Dim intPattern() = New Integer() {0, 0, 0, 0, 0, 1}
+        ap(intPattern)
+        shift(intPattern)
+        ap(intPattern)
+    End Sub
+
+    'Performs a left hand circular 'digit shift' (i.e. digit pattern wraps back round)
+    Private Sub shift(ByRef intPattern() As Integer)
+        Dim intPatternIn() As Integer
+        intPatternIn = intPattern
+        For i = 0 To intPattern.Length - 1
+            intPattern(i) = intPatternIn((i + 1) Mod intPattern.Length)
+        Next
     End Sub
 
 End Class

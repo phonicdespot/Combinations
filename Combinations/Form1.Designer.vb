@@ -31,6 +31,7 @@ Partial Class Combinations
         Me.Max = New System.Windows.Forms.NumericUpDown()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.Cols, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Min, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Max, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -107,11 +108,21 @@ Partial Class Combinations
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "See Immediate Window (Ctrl + G) for output."
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(15, 97)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(59, 25)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "Execute"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Combinations
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(322, 90)
+        Me.ClientSize = New System.Drawing.Size(322, 369)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Max)
@@ -139,5 +150,6 @@ Partial Class Combinations
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Private WithEvents Max As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
